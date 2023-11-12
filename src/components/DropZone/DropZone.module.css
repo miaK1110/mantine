@@ -1,0 +1,13 @@
+.dropzonewrapper {
+  margin: 0 auto;
+  margin-top: 3rem;
+  max-width: 500px;
+}
+
+.thumbnail {
+  max-width: 500px;
+  margin: 0 auto;
+  @media (max-width: $mantine-breakpoint-md) {
+    font-size: rem(50px);
+  }
+}
